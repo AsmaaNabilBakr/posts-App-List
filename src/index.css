@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: monospace;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.pageWrapper {
+  min-height: 537px;
+}
+
+thead[data-test="table-foot"] {
+  display: none !important;
+}
+
+tbody[data-test="table-body"] {
+  border-bottom: 1px solid #dee2e6;
+}
+
+table.dataTable thead {
+  background: #a92383;
+  color: #fff;
+}
+
+.modal-dialog {
+  max-width: 50% !important;
+}
+
+.modal-header {
+  background: #666;
+}
+
+.modal-title {
+  font-size: 19px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.modal-body label {
+  font-size: 16px;
+}
+
+.modal-body div {
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  padding: 5px 15px;
+  width: max-content;
+  height: 39px;
+}
